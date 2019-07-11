@@ -1,0 +1,8 @@
+DavPosix::unlink  HTTP 403 : Permission refused;Either a permission issue or for DPM sites well known DPM issue due to Apache;Submit a ticket to the site
+Details: globus_ftp_client: the server responded with an error 500 500-System error in unlink: Permission denied  500-A system call failed: Permission denied;Permission issue on a file or directory;Submit a ticket to the site
+DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE];Permission issue on a file or directory;Submit a ticket to the site
+Job has been canceled because it stayed in the queue for too long;Problem due to Rucio/FTS that can not finish the jobs after 4 days;Do not submit ticket
+Space associated with the space token;Space token full;Contact DDM ops
+Insufficient space left associated with token;Space token full;Contact DDM ops
+globus_ftp_client: the server responded with an error 421 Service busy: Connection limit exceeded. Please try again later. Closing control connection.;Storage overloaded;Submit a ticket to the site
+The requested service is not available at the moment.\\Details: An unknown exception occurred.\\Details: DavPosix::unlink  Failure;Problem with the WebDAV door;Submit a ticket to the site
