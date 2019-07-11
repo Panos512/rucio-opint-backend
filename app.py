@@ -225,4 +225,5 @@ app.add_url_rule('/error_reason_solution/<error_reason_solution_id>', methods=['
 app.add_url_rule('/error_reason_solution', defaults={'category_id': None}, methods=['GET'], view_func=ersview)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=8080)
+
