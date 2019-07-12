@@ -1,14 +1,13 @@
 FROM centos:7
 LABEL maintainer="dilaksun@hotmail.com"
 
-RUN python -m virtualenv venv
+EXPOSE 8080
 
-RUN source venv/bin/activate
+RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
-RUN python initial.py
-
-RUN python app.py
+ENTRYPOINT ["python"]
+CMD ["initial.py", "app.py"]
 
 

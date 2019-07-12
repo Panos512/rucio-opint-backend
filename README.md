@@ -35,5 +35,5 @@ pip install -r requirements.txt
 ```
 The virtual environment is now set, and you should be able to launch the web server with:
 ```
-python OI_flask_API.py
+python app.py
 ```
