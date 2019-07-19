@@ -2,10 +2,12 @@ import json
 import initial
 from flask import Flask, request, Response
 from flask.views import MethodView
+from flask_cors import CORS
 
 import core
 
 app = Flask(__name__)
+CORS(app)
 
 
 class Error(MethodView):
